@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brasero Café · concept</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <a class="marque" href="#accueil">Brasero Café</a>
+    <nav>
+      <a href="#carte">Carte</a>
+      <a href="#histoire">Histoire</a>
+      <a href="#reserver">Réserver</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <p class="kicker">Café de spécialité · concept fictif</p>
+      <h1>Un café qui se prend lentement.</h1>
+      <p class="intro">Torréfaction en petits lots, pâtisseries du jour et une carte courte, renouvelée chaque semaine.</p>
+      <a class="bouton" href="#reserver">Réserver une table</a>
+    </section>
+
+    <section id="carte" class="carte">
+      <h2>La carte</h2>
+      <div class="colonnes">
+        <div>
+          <h3>Cafés</h3>
+          <ul>
+            <li><span>Espresso</span><b>3,50 €</b></li>
+            <li><span>Flat white</span><b>4,50 €</b></li>
+            <li><span>Filtre du jour</span><b>4,00 €</b></li>
+            <li><span>Cold brew</span><b>5,00 €</b></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Pâtisseries</h3>
+          <ul>
+            <li><span>Cake citron et thym</span><b>3,00 €</b></li>
+            <li><span>Croissant au beurre</span><b>2,80 €</b></li>
+            <li><span>Tarte du jour</span><b>4,20 €</b></li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Prix indicatifs, pour ce concept uniquement.</p>
+    </section>
+
+    <section id="histoire" class="histoire">
+      <h2>L'histoire</h2>
+      <p>Brasero est un café imaginaire, pensé pour un quartier animé. Chaque grain est torréfié en petites quantités, et chaque tasse est servie avec le temps de la goûter.</p>
+    </section>
+
+    <section id="reserver" class="reserver">
+      <h2>Réserver une table</h2>
+      <form id="formulaire">
+        <label>Nom <input name="nom" required autocomplete="name"></label>
+        <label>Date <input name="date" type="date" required></label>
+        <label>Personnes
+          <select name="personnes">
+            <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5 et plus</option>
+          </select>
+        </label>
+        <button type="submit" class="bouton">Demander la réservation</button>
+        <p id="retour" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Brasero Café · projet concept, aucune adresse réelle. Démonstration de design et d'intégration.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
