@@ -12,3 +12,7 @@ Projet personnel de design et d'intégration. Le café est **fictif** : aucune a
 
 ## Voir le site
 Ouvrir `index.html` dans un navigateur, ou activer GitHub Pages sur ce dépôt.
+
+## Style et photos
+- Polices Fraunces (titres) et Work Sans (texte), palette crème, bordeaux, olive et sable, angles droits.
+- Photographies libres de droits issues d'Unsplash (licence Unsplash), utilisées en illustration.
