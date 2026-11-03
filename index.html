@@ -3,54 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brasero Café · concept</title>
+  <title>Brasero Café (site concept)</title>
+  <meta name="description" content="Site concept d'un café fictif. Projet personnel, aucune adresse réelle.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="top">
-    <a class="marque" href="#accueil">Brasero Café</a>
+    <a class="marque" href="#accueil">Brasero</a>
     <nav>
-      <a href="#carte">Carte</a>
-      <a href="#histoire">Histoire</a>
+      <a href="#carte">La carte</a>
+      <a href="#salle">Le lieu</a>
+      <a href="#histoire">Notre histoire</a>
       <a href="#reserver">Réserver</a>
     </nav>
   </header>
 
   <main>
     <section id="accueil" class="hero">
-      <p class="kicker">Café de spécialité · concept fictif</p>
-      <h1>Un café qui se prend lentement.</h1>
-      <p class="intro">Torréfaction en petits lots, pâtisseries du jour et une carte courte, renouvelée chaque semaine.</p>
-      <a class="bouton" href="#reserver">Réserver une table</a>
+      <div class="hero-texte">
+        <p class="kicker">Café de spécialité, lieu fictif</p>
+        <h1>Un café qui se prend lentement.</h1>
+        <p class="intro">Le grain est torréfié en petits lots. Les pâtisseries sortent du four le matin, et la carte change chaque semaine.</p>
+        <a class="bouton" href="#reserver">Réserver une table</a>
+      </div>
+      <img src="images/croissant.jpg" alt="Deux croissants dorés sur une assiette, à côté d'un verre de lait" width="1400" height="1867">
     </section>
 
     <section id="carte" class="carte">
       <h2>La carte</h2>
-      <div class="colonnes">
-        <div>
-          <h3>Cafés</h3>
-          <ul>
-            <li><span>Espresso</span><b>3,50 €</b></li>
-            <li><span>Flat white</span><b>4,50 €</b></li>
-            <li><span>Filtre du jour</span><b>4,00 €</b></li>
-            <li><span>Cold brew</span><b>5,00 €</b></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Pâtisseries</h3>
-          <ul>
-            <li><span>Cake citron et thym</span><b>3,00 €</b></li>
-            <li><span>Croissant au beurre</span><b>2,80 €</b></li>
-            <li><span>Tarte du jour</span><b>4,20 €</b></li>
-          </ul>
+      <div class="carte-grille">
+        <img src="images/latte.jpg" alt="Tasse de café avec une feuille dessinée dans la mousse" loading="lazy" width="1400" height="1400">
+        <div class="colonnes">
+          <div>
+            <h3>Cafés</h3>
+            <ul>
+              <li><span>Espresso</span><b>3,50 €</b></li>
+              <li><span>Flat white</span><b>4,50 €</b></li>
+              <li><span>Filtre du jour</span><b>4,00 €</b></li>
+              <li><span>Cold brew</span><b>5,00 €</b></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Pâtisseries</h3>
+            <ul>
+              <li><span>Cake citron et thym</span><b>3,00 €</b></li>
+              <li><span>Croissant au beurre</span><b>2,80 €</b></li>
+              <li><span>Tarte du jour</span><b>4,20 €</b></li>
+            </ul>
+          </div>
         </div>
       </div>
-      <p class="note">Prix indicatifs, pour ce concept uniquement.</p>
+      <p class="note">Prix indicatifs, valables pour ce concept uniquement.</p>
+    </section>
+
+    <section id="salle" class="salle">
+      <img src="images/salle.jpg" alt="Salle de café avec grandes tables en bois et suspensions" loading="lazy" width="1400" height="2108">
+      <div>
+        <h2>Le lieu</h2>
+        <p>Une salle claire, de grandes tables en bois et un comptoir ouvert sur la torréfaction. On peut venir y travailler une heure ou y rester l'après-midi.</p>
+        <img class="petite" src="images/viennoiseries.jpg" alt="Viennoiseries sur une planche en bois, avec un rouleau à pâtisserie" loading="lazy" width="1400" height="1050">
+      </div>
     </section>
 
     <section id="histoire" class="histoire">
-      <h2>L'histoire</h2>
-      <p>Brasero est un café imaginaire, pensé pour un quartier animé. Chaque grain est torréfié en petites quantités, et chaque tasse est servie avec le temps de la goûter.</p>
+      <h2>Notre histoire</h2>
+      <p>Brasero est un café imaginaire, pensé pour un quartier animé. Chaque grain est torréfié en petites quantités et chaque tasse est servie sans se presser.</p>
+      <p class="mention">Le café, son équipe et ses produits sont inventés pour ce projet de design et d'intégration.</p>
     </section>
 
     <section id="reserver" class="reserver">
@@ -70,7 +91,7 @@
   </main>
 
   <footer>
-    <p>Brasero Café · projet concept, aucune adresse réelle. Démonstration de design et d'intégration.</p>
+    <p>Brasero Café, site concept sans adresse réelle. Photographies libres de droits issues d'Unsplash, utilisées en illustration.</p>
   </footer>
   <script src="script.js"></script>
 </body>
