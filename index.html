@@ -12,13 +12,9 @@
 </head>
 <body>
   <header class="top">
+    <nav class="gauche" aria-label="Principale"><a href="#carte">La carte</a><a href="#salle">Le lieu</a></nav>
     <a class="marque" href="#accueil">Brasero</a>
-    <nav>
-      <a href="#carte">La carte</a>
-      <a href="#salle">Le lieu</a>
-      <a href="#histoire">Notre histoire</a>
-      <a href="#reserver">Réserver</a>
-    </nav>
+    <div class="droite"><a href="#histoire">Notre histoire</a><a class="reserve" href="#reserver">Réserver</a></div>
   </header>
 
   <main>
@@ -90,8 +86,27 @@
     </section>
   </main>
 
-  <footer>
-    <p>Brasero Café, site concept sans adresse réelle. Photographies libres de droits issues d'Unsplash, utilisées en illustration.</p>
+  <footer class="pied">
+    <div class="pied-grille">
+      <div>
+        <p class="pied-marque">Brasero</p>
+        <p>Café de spécialité imaginaire : torréfaction en petits lots et pâtisseries du jour.</p>
+      </div>
+      <div>
+        <h3>Horaires</h3>
+        <p>Lundi au vendredi, 7 h 30 à 18 h<br>Samedi et dimanche, 9 h à 17 h</p>
+      </div>
+      <div>
+        <h3>Adresse</h3>
+        <p>8 rue du Grain<br>Ville imaginaire</p>
+        <p><a href="mailto:bonjour@brasero-cafe.example">bonjour@brasero-cafe.example</a></p>
+      </div>
+      <div>
+        <h3>Navigation</h3>
+        <ul><li><a href="#carte">La carte</a></li><li><a href="#salle">Le lieu</a></li><li><a href="#histoire">Notre histoire</a></li><li><a href="#reserver">Réserver</a></li></ul>
+      </div>
+    </div>
+    <p class="pied-bas">Brasero Café, site concept de Jean Eudes sans adresse réelle. Photographies libres de droits (Unsplash). © 2026</p>
   </footer>
   <script src="script.js"></script>
 </body>
