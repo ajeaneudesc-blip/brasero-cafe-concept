@@ -1,5 +1,5 @@
 /* Palette : indigo, lavande et ambre. Police : Poppins. */
-:root { --fond:#ffffff; --sable:#e0e7ff; --texte:#1e1b4b; --doux:#55527c; --bordeaux:#312e81; --olive:#312e81; --ambre:#f59e0b; --lav:#a5b4fc; --trait:#d9defa; }
+:root { --fond:#ffffff; --sable:#ffffff; --texte:#1e1b4b; --doux:#55527c; --bordeaux:#312e81; --olive:#312e81; --ambre:#f59e0b; --lav:#a5b4fc; --trait:#d9defa; }
 * { box-sizing: border-box; border-radius: 0; }
 html { scroll-behavior: smooth; }
 body { margin:0; font-family:"Poppins",system-ui,sans-serif; font-weight:300; color:var(--texte); background:var(--fond); line-height:1.7; }
@@ -26,7 +26,7 @@ h3 { font-size:18px; color:var(--bordeaux); border-bottom:3px solid var(--ambre)
 .bouton { display:inline-block; margin-top:14px; padding:14px 30px; border:1px solid var(--bordeaux); background:var(--bordeaux); color:#fff; font:inherit; font-size:14px; font-weight:500; letter-spacing:.04em; text-decoration:none; cursor:pointer; transition:background .3s ease, color .3s ease; }
 .bouton:hover { background:var(--fond); color:var(--bordeaux); }
 
-.carte { background:var(--sable); max-width:none; }
+.carte { background:#fff; max-width:none; border-top:1px solid var(--trait); border-bottom:1px solid var(--trait); }
 .carte > * { max-width:1024px; margin-left:auto; margin-right:auto; }
 .carte-grille { display:grid; grid-template-columns:1fr 1.2fr; gap:56px; align-items:center; }
 .carte-grille img { width:100%; aspect-ratio:1/1; object-fit:cover; }
@@ -44,7 +44,7 @@ h3 { font-size:18px; color:var(--bordeaux); border-bottom:3px solid var(--ambre)
 .histoire p { font-size:18px; }
 .mention { color:var(--doux); font-size:14px !important; }
 
-.reserver { background:var(--sable); max-width:none; }
+.reserver { background:#fff; max-width:none; border-top:1px solid var(--trait); }
 .reserver > * { max-width:520px; margin-left:auto; margin-right:auto; display:block; }
 .reserver h2 { text-align:center; }
 form { display:grid; gap:20px; }
