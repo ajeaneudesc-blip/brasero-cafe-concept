@@ -1,23 +1,23 @@
-/* Palette : crème, bordeaux, olive, sable. Polices : Fraunces (titres) et Work Sans (texte). */
-:root { --fond:#fbf8f3; --sable:#efe6d8; --texte:#42302b; --doux:#7a6a62; --bordeaux:#7b2d3b; --olive:#5f6b3a; --trait:#e2d8c8; }
+/* Palette : indigo, lavande et ambre. Police : Poppins. */
+:root { --fond:#ffffff; --sable:#e0e7ff; --texte:#1e1b4b; --doux:#55527c; --bordeaux:#312e81; --olive:#312e81; --ambre:#f59e0b; --lav:#a5b4fc; --trait:#d9defa; }
 * { box-sizing: border-box; border-radius: 0; }
 html { scroll-behavior: smooth; }
-body { margin:0; font-family:"Work Sans",system-ui,sans-serif; font-weight:300; color:var(--texte); background:var(--fond); line-height:1.7; }
+body { margin:0; font-family:"Poppins",system-ui,sans-serif; font-weight:300; color:var(--texte); background:var(--fond); line-height:1.7; }
 img { display:block; max-width:100%; height:auto; }
 section { scroll-margin-top:80px; }
 
 .top { display:flex; justify-content:space-between; align-items:center; gap:20px; flex-wrap:wrap; padding:20px 48px; background:var(--fond); border-bottom:1px solid var(--trait); position:sticky; top:0; z-index:5; }
-.marque { font-family:"Fraunces",Georgia,serif; font-size:26px; font-weight:600; color:var(--bordeaux); text-decoration:none; letter-spacing:.02em; }
+.marque { font-size:24px; font-weight:600; color:var(--bordeaux); text-decoration:none; letter-spacing:.02em; }
 nav a { margin-left:28px; color:var(--texte); text-decoration:none; font-size:14px; font-weight:400; padding:4px 0; border-bottom:1px solid transparent; transition:border-color .3s ease; }
-nav a:hover { border-bottom-color:var(--bordeaux); }
+nav a:hover { border-bottom-color:var(--ambre); }
 a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline:2px solid var(--bordeaux); outline-offset:3px; }
 
 section { padding:88px 48px; max-width:1120px; margin:0 auto; }
-h1, h2, h3 { font-family:"Fraunces",Georgia,serif; font-weight:500; line-height:1.15; margin:0 0 20px; }
+h1, h2, h3 { font-family:"Poppins",system-ui,sans-serif; font-weight:500; line-height:1.15; margin:0 0 20px; }
 h1 { font-size:clamp(38px,5.5vw,62px); letter-spacing:-.01em; }
 h2 { font-size:36px; }
-h3 { font-size:20px; color:var(--olive); }
-.kicker { color:var(--olive); font-size:13px; font-weight:500; text-transform:uppercase; letter-spacing:.14em; margin:0 0 16px; }
+h3 { font-size:18px; color:var(--bordeaux); border-bottom:3px solid var(--ambre); display:inline-block; padding-bottom:4px; }
+.kicker { color:var(--bordeaux); font-size:13px; font-weight:500; text-transform:uppercase; letter-spacing:.14em; margin:0 0 16px; }
 .intro { font-size:18px; max-width:480px; }
 
 .hero { display:grid; grid-template-columns:1.1fr 1fr; gap:56px; align-items:center; }
@@ -32,7 +32,7 @@ h3 { font-size:20px; color:var(--olive); }
 .carte-grille img { width:100%; aspect-ratio:1/1; object-fit:cover; }
 .colonnes { display:grid; gap:32px; }
 .colonnes ul { list-style:none; margin:0; padding:0; }
-.colonnes li { display:flex; justify-content:space-between; gap:16px; padding:11px 0; border-bottom:1px solid #d8cbb6; }
+.colonnes li { display:flex; justify-content:space-between; gap:16px; padding:11px 0; border-bottom:1px solid var(--lav); }
 .colonnes b { font-weight:500; color:var(--bordeaux); }
 .note { color:var(--doux); font-size:13px; margin-top:28px; }
 
@@ -49,7 +49,7 @@ h3 { font-size:20px; color:var(--olive); }
 .reserver h2 { text-align:center; }
 form { display:grid; gap:20px; }
 label { display:grid; gap:8px; font-size:13px; font-weight:500; letter-spacing:.04em; }
-input, select { font:inherit; font-weight:300; padding:12px 14px; border:1px solid #cdbfa8; background:#fff; color:var(--texte); }
+input, select { font:inherit; font-weight:300; padding:12px 14px; border:1px solid var(--lav); background:#fff; color:var(--texte); }
 input:hover, select:hover { border-color:var(--bordeaux); }
 form .bouton { justify-self:start; }
 #retour { margin:0; font-size:14px; color:var(--olive); }
